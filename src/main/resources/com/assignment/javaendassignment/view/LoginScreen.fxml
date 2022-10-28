@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox alignment="center" spacing="15" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assignment.javaendassignment.LoginScreenController">
+    <padding>
+        <Insets bottom="10" left="80" right="80" top="25" />
+    </padding>
+
+    <VBox alignment="TOP_CENTER">
+        <padding>
+            <Insets bottom="15" left="0" right="0" top="10" />
+        </padding>
+        <Text fx:id="_loginText" text="Welcome" />
+        <ImageView fx:id="myImageView" fitHeight="53.0" fitWidth="62.0">
+            <image>
+                <Image url="@../images/login-icon.png" />
+            </image>
+        </ImageView>
+    </VBox>
+    <VBox spacing="5">
+        <Label text="Username:" />
+        <TextField fx:id="usernameField" />
+    </VBox>
+    <VBox spacing="5">
+        <Label text="Password:" />
+        <PasswordField fx:id="passwordField" />
+    </VBox>
+
+    <HBox alignment="bottom_right">
+        <Button fx:id="loginBtn" onAction="#login" text="Sign In">
+         <HBox.margin>
+            <Insets top="10.0" />
+         </HBox.margin></Button>
+    </HBox>
+    <Text fx:id="errorMsg" fill="#cd1c1c" />
+</VBox>

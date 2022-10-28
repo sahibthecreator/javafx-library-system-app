@@ -1,0 +1,79 @@
+#_loginText{
+-fx-font: bold 20pt "Arial";
+}
+#loginBtn{
+    -fx-font: bold 11pt "Arial";
+        -fx-background-color:#2c3e50;
+        -fx-text-fill: white;
+         -fx-padding: 7 15;
+         -fx-background-radius: 15px;
+}
+#openAddMemberPanelButton{
+        -fx-font: bold 11pt "Arial";
+        -fx-background-color: green;
+        -fx-text-fill: white;
+        -fx-padding: 5 10;
+        -fx-background-radius: 8px;
+}
+#openEditMemberPanelButton{
+-fx-font: bold 11pt "Arial";
+        -fx-background-color: blue;
+        -fx-text-fill: white;
+        -fx-padding: 5 10;
+        -fx-background-radius: 8px;
+}
+#deleteMemberButton{
+-fx-font: bold 11pt "Arial";
+        -fx-background-color: darkred;
+        -fx-text-fill: white;
+        -fx-padding: 5 10;
+        -fx-background-radius: 8px;
+
+}
+#saveMemberButton, #saveItemButton{
+        -fx-font: bold 11pt "Arial";
+        -fx-background-color: #0984e3;
+        -fx-text-fill: white;
+        -fx-padding: 5 10;
+}
+#cancelButton, #cancelItemButton {
+        -fx-font: bold 11pt "Arial";
+        -fx-background-color: gray;
+        -fx-text-fill: white;
+        -fx-padding: 5 10;
+}
+#lendItemBtn{
+-fx-font: bold 10pt "Arial";
+        -fx-background-color: #0984e3;
+        -fx-text-fill: white;
+        -fx-padding: 5 10;
+        -fx-background-radius: 8px;
+}
+#receiveItemBtn{
+-fx-font: bold 10pt "Arial";
+        -fx-background-color: darkred;
+        -fx-text-fill: white;
+        -fx-padding: 5 10;
+        -fx-background-radius: 8px;
+}
+#openAddItemPanelButton{
+-fx-font: bold 11pt "Arial";
+        -fx-background-color: green;
+        -fx-text-fill: white;
+        -fx-padding: 5 10;
+        -fx-background-radius: 8px;
+}
+#openEditItemPanelButton{
+-fx-font: bold 11pt "Arial";
+        -fx-background-color: blue;
+        -fx-text-fill: white;
+        -fx-padding: 5 10;
+        -fx-background-radius: 8px;
+}
+#deleteItemButton{
+-fx-font: bold 11pt "Arial";
+        -fx-background-color: darkred;
+        -fx-text-fill: white;
+        -fx-padding: 5 10;
+        -fx-background-radius: 8px;
+}
